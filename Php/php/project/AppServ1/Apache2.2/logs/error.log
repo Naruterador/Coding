@@ -1,0 +1,90 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 18:24:59 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Apr 02 18:24:59 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Apr 02 18:24:59 2017] [notice] Parent: Created child process 2764
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 18:25:00 2017] [notice] Child 2764: Child process is running
+[Sun Apr 02 18:25:00 2017] [notice] Child 2764: Acquired the start mutex.
+[Sun Apr 02 18:25:00 2017] [notice] Child 2764: Starting 250 worker threads.
+[Sun Apr 02 18:25:00 2017] [notice] Child 2764: Starting thread to listen on port 443.
+[Sun Apr 02 18:25:00 2017] [notice] Child 2764: Starting thread to listen on port 80.
+[Sun Apr 02 18:41:18 2017] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 18:41:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Apr 02 18:41:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Apr 02 18:41:25 2017] [notice] Parent: Created child process 1928
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 18:41:27 2017] [notice] Child 1928: Child process is running
+[Sun Apr 02 18:41:27 2017] [notice] Child 1928: Acquired the start mutex.
+[Sun Apr 02 18:41:27 2017] [notice] Child 1928: Starting 250 worker threads.
+[Sun Apr 02 18:41:28 2017] [notice] Child 1928: Starting thread to listen on port 443.
+[Sun Apr 02 18:41:28 2017] [notice] Child 1928: Starting thread to listen on port 80.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 18:41:28 2017] [warn] (OS 64)指定的网络名不再可用。  : winnt_accept: Asynchronous AcceptEx failed.
+[Sun Apr 02 19:30:46 2017] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 19:30:47 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Apr 02 19:30:47 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Apr 02 19:30:47 2017] [notice] Parent: Created child process 2964
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Sun Apr 02 19:30:50 2017] [notice] Child 2964: Child process is running
+[Sun Apr 02 19:30:50 2017] [notice] Child 2964: Acquired the start mutex.
+[Sun Apr 02 19:30:50 2017] [notice] Child 2964: Starting 250 worker threads.
+[Sun Apr 02 19:30:50 2017] [notice] Child 2964: Starting thread to listen on port 443.
+[Sun Apr 02 19:30:50 2017] [notice] Child 2964: Starting thread to listen on port 80.
+[Sun Apr 02 19:45:40 2017] [error] [client 127.0.0.1] script 'C:/AppServ/www/MessageBoard.php' not found or unable to stat, referer: http://127.0.0.1/list.html
+[Mon Apr 03 09:05:57 2017] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 09:05:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 03 09:05:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 03 09:05:58 2017] [notice] Parent: Created child process 3032
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 09:05:59 2017] [notice] Child 3032: Child process is running
+[Mon Apr 03 09:05:59 2017] [notice] Child 3032: Acquired the start mutex.
+[Mon Apr 03 09:05:59 2017] [notice] Child 3032: Starting 250 worker threads.
+[Mon Apr 03 09:05:59 2017] [notice] Child 3032: Starting thread to listen on port 443.
+[Mon Apr 03 09:05:59 2017] [notice] Child 3032: Starting thread to listen on port 80.
+[Mon Apr 03 09:53:06 2017] [error] [client 127.0.0.1] File does not exist: C:/AppServ/www/function.mssql-query, referer: http://127.0.0.1/insert.php
+[Mon Apr 03 10:16:18 2017] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 10:16:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 03 10:16:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 03 10:16:18 2017] [notice] Parent: Created child process 3420
+Apache server shutdown initiated...
+ load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 10:16:20 2017] [notice] Child 3420: Child process is running
+[Mon Apr 03 10:16:20 2017] [notice] Child 3420: Acquired the start mutex.
+[Mon Apr 03 10:16:20 2017] [notice] Child 3420: Starting 250 worker threads.
+[Mon Apr 03 10:16:20 2017] [notice] Child 3420: Starting thread to listen on port 443.
+[Mon Apr 03 10:16:20 2017] [notice] Child 3420: Starting thread to listen on port 80.
+[Mon Apr 03 11:49:17 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 03 11:49:17 2017] [notice] Child 3420: Exit event signaled. Child process is ending.
+[Mon Apr 03 11:49:18 2017] [notice] Child 3420: Released the start mutex
+[Mon Apr 03 11:49:19 2017] [notice] Child 3420: All worker threads have exited.
+[Mon Apr 03 11:49:19 2017] [notice] Child 3420: Child process is exiting
+[Mon Apr 03 11:49:19 2017] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 13:51:27 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 03 13:51:27 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 03 13:51:27 2017] [notice] Parent: Created child process 3288
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 13:51:29 2017] [notice] Child 3288: Child process is running
+[Mon Apr 03 13:51:29 2017] [notice] Child 3288: Acquired the start mutex.
+[Mon Apr 03 13:51:29 2017] [notice] Child 3288: Starting 250 worker threads.
+[Mon Apr 03 13:51:29 2017] [notice] Child 3288: Starting thread to listen on port 443.
+[Mon Apr 03 13:51:29 2017] [notice] Child 3288: Starting thread to listen on port 80.
+[Mon Apr 03 20:47:52 2017] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 20:47:53 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 03 20:47:53 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 03 20:47:53 2017] [notice] Parent: Created child process 3624
+PHP Warning:  PHP Startup: Unable to load dynamic library '\\xampp\\php\\ext\\php_pgsql.dll' - \xd3\xc9\xd3\xda\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xc5\xe4\xd6\xc3\xb2\xbb\xd5\xfd\xc8\xb7\xa3\xac\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xce\xb4\xc4\xdc\xc6\xf4\xb6\xaf\xa1\xa3\xd6\xd8\xd0\xc2\xb0\xb2\xd7\xb0\xd3\xa6\xd3\xc3\xb3\xcc\xd0\xf2\xbf\xc9\xc4\xdc\xbb\xe1\xbe\xc0\xd5\xfd\xd5\xe2\xb8\xf6\xce\xca\xcc\xe2\xa1\xa3\r\n in Unknown on line 0
+[Mon Apr 03 20:47:55 2017] [notice] Child 3624: Child process is running
+[Mon Apr 03 20:47:55 2017] [notice] Child 3624: Acquired the start mutex.
+[Mon Apr 03 20:47:55 2017] [notice] Child 3624: Starting 250 worker threads.
+[Mon Apr 03 20:47:55 2017] [notice] Child 3624: Starting thread to listen on port 443.
+[Mon Apr 03 20:47:55 2017] [notice] Child 3624: Starting thread to listen on port 80.

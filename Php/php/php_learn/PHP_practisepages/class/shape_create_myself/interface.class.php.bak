@@ -1,0 +1,17 @@
+<?php
+	interface shapeCalculator
+	{
+		public function perimetercal();
+		public function area();
+	}
+
+
+
+
+
+
+
+
+
+
+?>
