@@ -6,7 +6,7 @@ code segment
 mov ax,0ffffh
 mov ds,ax
 
-mov ax,0200h
+mov ax,0020h
 mov es,ax
 
 mov bx,0
