@@ -7,7 +7,7 @@ code segment
     
     mov bx,6
     
-    mov al,[bx]  ;由于ffff:6存的是字节单元，但是dx是字单元，无法直接移动
+    mov al,[bx]  ;由于ffff:6存的是字节单元，但是dx是字单元，无法直接做加法操作
     mov ah,0   ;所以将ffff:6的单元存入al，再将ax移动到dx
 
 
