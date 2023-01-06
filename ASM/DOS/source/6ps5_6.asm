@@ -19,6 +19,7 @@ start: mov ax,a
 
        mov cx,8
        mov bx,0
+    
     s: push ds:[bx]
        add bx,2
        loop s
