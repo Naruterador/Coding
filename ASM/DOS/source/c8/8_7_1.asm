@@ -21,7 +21,7 @@
     div byte ptr [bx+si+8]
     ;含义：
     (al)=(ax)/((ds)*16+(bx)+(si)+8）的商
-    (ah)=(ax)/((as)*16+(bx)+(si)+8）的余数
+    (ah)=(ax)/((ax)*16+(bx)+(si)+8）的余数
 
     div word ptr [bx+si+8]
     含义：

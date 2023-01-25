@@ -17,7 +17,7 @@
         inc al
         add al,100
 
-;2.在没有寄存器存在的情况下，用操作符X ptr 指明内存单元的长度，X在汇编指令中可以为word或者byte
+;2.在没有寄存器存在的情况下，用操作符X ptr 指明内存单元的长度
 ;（1）下面指令中，用word ptr指明了指令访问的内存单元是一个字单元
     mov word ptr ds:[0],1
     inc word ptr [bx]
@@ -33,13 +33,15 @@
 ;假设我们用 Debug 查看内存的结果如下
 ;2000: 1000 FF FF FF FF FF FF ......
 ;那么指令：
-mov ax, 2000H mov ds, ax
+mov ax, 2000H 
+mov ds, ax
 mov byte ptr [1000H], 1
 ;将使内存中的内容变为：
 ;2000: 1000 01 FF FF FF FF FF ......
 
 ;而指令：
-mov ax, 2000H mov ds,ax
+mov ax, 2000H 
+mov ds,ax
 mov word ptr [1000H],1
 ;将使内存中的内容变为：
 ;2000: 1000 01 00 FF FF FF FF ......
