@@ -28,8 +28,10 @@ table segment
 table ends
 
 
-stack segment
-    dw 0,0,0,0,0,0,0,0,0,0
+stack segment ;栈设置这么大是为了后面保存人均工资
+    dw 0,0,0,0,0,0,0,0
+    dw 0,0,0,0,0,0,0,0
+    dw 0,0,0,0,0,0,0,0
 stack ends
 
 
@@ -41,14 +43,14 @@ start: mov ax,data
        
        mov ax,stack
        mov ss,ax
-       mov sp,16  ;指向占顶
+       mov sp,48     ;指向栈顶
         
        mov bx,0
        mov si,0
        mov di,0
        mov cx,21
        
-       s1: push cx
+       s1: push cx          ;移动年份和资产总和到table指定位置
            mov cx,2
            
            s2: mov dx,[bx].0000H[di]
@@ -70,11 +72,49 @@ start: mov ax,data
         mov si,10
         mov di,0
         
-        s3: mov dx,[bx].00A8H[di]
+        s3: mov dx,[bx].00A8H[di]    ;移动员工人数到table指定位置
             mov [bx].00E0H[si],dx
             add di,2
             add si,15
             loop s3
+
+        
+        
+        mov cx,8
+        mov si,0
+        mov di,0
+        s4: mov ax,[bx].0054H[si]   ;求出前8年的人均工资（因为前八年的除数小于等于8位，被除数小于等于16位）
+            div byte ptr [bx].00A8H[di]
+            mov ah,0
+            
+            push ax   ;将前八年的人均工资暂时押入栈保存
+
+            add si,4
+            add di,2
+            loop s4
+        
+        mov cx,13
+        mov si,0
+        mov di,0
+        s5: mov ax,[bx].0074H[si]    ;求出后13年的人均工资（后13年的除数大于8位，被除数大于16位）
+            mov dx,[bx].0074H[si+2]
+            
+            div word ptr [bx].00B8H[di]
+
+            push ax   ;将后13年的人均工资暂时押入栈保存
+
+            add si,4
+            add di,2
+            loop s5
+
+        
+        mov cx,21
+        mov si,313   ;指向最后一条数据（1995年）的偏移
+        mov di,0
+
+        s6: pop [bx].00E0H[si]  ;将栈中数据弹出到table指定位置
+            sub si,15
+            loop s6 
 
 
        mov ax,4c00h
