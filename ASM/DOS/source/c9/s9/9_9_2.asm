@@ -34,7 +34,7 @@ start: mov ax,datasg
            push di
            mov cx,16
         
-           s2:  mov dl,ds:[s]         ;内存循环用于控制每个字符串的输入和特效
+           s2:  mov dl,ds:[si]         ;内存循环用于控制每个字符串的输入和特效
                 mov dh,ds:[bx]                 
                 mov es:[di],dx
                 inc si
